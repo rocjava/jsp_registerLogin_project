@@ -6,7 +6,6 @@
 <script language="javascript">
 	function checkData(){
 
-	
 		var username=document.registerform.username.value;
 		if(username==""){
 		alert("用户名不能为空!..");
@@ -19,7 +18,6 @@
 		document.registerform.password.focus();
 		return false;
 		}
-	/**
 		var s_password=document.registerform.s_password.value;
 		if(s_password!=password){
 		alert("两次密码不一致!..");
@@ -61,15 +59,12 @@
 		return false;
 		level
 		}
-		**/
-		/**
 		var phone=document.registerform.phone.value;
 		if(phone==""){
 		alert("电话不能为空!..");		
 		document.registerform.phone.focus();
 		return false;
 		}
-		**/
 		return true;
 	}
 </script>

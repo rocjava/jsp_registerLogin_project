@@ -29,7 +29,7 @@
 	}
 </script>
 </head>
-<body onload="document.loginform.username.focus()">
+<body>
 	
 	<center>
 	<h3>--用户登录--</h3>
